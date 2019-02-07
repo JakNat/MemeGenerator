@@ -1,0 +1,12 @@
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\bin\Debug\netcoreapp2.1\Server.Infrastructure.deps.json
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\bin\Debug\netcoreapp2.1\Server.Infrastructure.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\bin\Debug\netcoreapp2.1\Server.Infrastructure.pdb
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\bin\Debug\netcoreapp2.1\Server.Core.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\bin\Debug\netcoreapp2.1\Server.Core.pdb
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.csprojAssemblyReference.cache
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.AssemblyInfo.cs
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.csproj.CopyComplete
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Infrastructure\obj\Debug\netcoreapp2.1\Server.Infrastructure.pdb

@@ -1,0 +1,14 @@
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Tests.deps.json
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Tests.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Tests.pdb
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Core.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Infrastructure.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Core.pdb
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\bin\Debug\netcoreapp2.1\Server.Infrastructure.pdb
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.csprojAssemblyReference.cache
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.csproj.CoreCompileInputs.cache
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.AssemblyInfoInputs.cache
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.AssemblyInfo.cs
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.csproj.CopyComplete
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.dll
+C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Tests\obj\Debug\netcoreapp2.1\Server.Tests.pdb
