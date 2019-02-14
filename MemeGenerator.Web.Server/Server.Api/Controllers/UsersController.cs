@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Server.Infrastructure.Commands;
 using Server.Infrastructure.Commands.Users;
+using Server.Infrastructure.Extensions;
 using Server.Infrastructure.Services;
 
 namespace Passenger.Api.Controllers
@@ -19,6 +20,7 @@ namespace Passenger.Api.Controllers
             _userService = userService;
         }
 
+        [HttpGet]
         public async Task<IActionResult> Get()
         {
             var users = await _userService.BrowseAsync();
@@ -41,6 +43,10 @@ namespace Passenger.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]CreateUser command)
         {
+            if (command.UserName.IsEmpty())
+            {
+                command.UserName = command.Email;
+            }
             await DispatchAsync(command);
 
             return Created($"users/{command.Email}", null);

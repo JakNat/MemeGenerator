@@ -1,5 +1,5 @@
 ﻿using Autofac;
-using AutoMapper.Configuration;
+using Microsoft.Extensions.Configuration;
 using Server.Infrastructure.IoC.Modules;
 using Server.Infrastructure.Mappers;
 
@@ -21,9 +21,9 @@ namespace Server.Infrastructure.IoC
             builder.RegisterModule<CommandModule>();
             builder.RegisterModule<RepositoryModule>();
             //builder.RegisterModule<MongoModule>();
-            //builder.RegisterModule<SqlModule>();
+            builder.RegisterModule<SqlModule>();
             builder.RegisterModule<ServiceModule>();
-            //builder.RegisterModule(new SettingsModule(_configuration));
+            builder.RegisterModule(new SettingsModule(_configuration));
         }
     }
 }

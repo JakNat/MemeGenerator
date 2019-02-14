@@ -17,3 +17,22 @@ C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server
 C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.csproj.CopyComplete
 C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.dll
 C:\Users\jakub.natonek\Desktop\mem\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.pdb
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.csproj.CoreCompileInputs.cache
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.RazorAssemblyInfo.cache
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.RazorAssemblyInfo.cs
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.AssemblyInfoInputs.cache
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.AssemblyInfo.cs
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.csprojAssemblyReference.cache
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Core.dll
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Infrastructure.dll
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Core.pdb
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.RazorTargetAssemblyInfo.cache
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Api.deps.json
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Api.runtimeconfig.json
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Api.runtimeconfig.dev.json
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Api.dll
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Api.pdb
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\bin\Debug\netcoreapp2.1\Server.Infrastructure.pdb
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.csproj.CopyComplete
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.dll
+C:\Users\bobotb\Desktop\New folder\MemeGenerator\MemeGenerator.Web.Server\Server.Api\obj\Debug\netcoreapp2.1\Server.Api.pdb

@@ -11,8 +11,8 @@ namespace Server.Core.Repositories
         Task<Meme> GetAsync(Guid id);
         Task<Meme> GetAsync(string title);
         Task<IEnumerable<Meme>> GetAllAsync();
-        Task AddAsync(Meme user);
-        Task UpdateAsync(Meme user);
-        Task RemoveAsync(Meme id);
+        Task AddAsync(Meme meme);
+        Task UpdateAsync(Meme meme);
+        Task RemoveAsync(Guid id);
     }
 }

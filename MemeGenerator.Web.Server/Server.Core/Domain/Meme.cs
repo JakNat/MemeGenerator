@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -9,22 +11,25 @@ namespace Server.Core.Domain
     public class Meme
     {
         private static readonly Regex NameRegex = new Regex("^(?![_.-])(?!.*[_.-]{2})[a-zA-Z0-9._.-]+(?<![_.-])$");
-
+        [Key]
         public Guid Id { get; set; }
         public string Title { get; set; }
-        public string ImagePath { get; set; }
+        [ForeignKey("User")]
+        public Guid UserId { get; set; }
+        public virtual User User { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-
         protected Meme()
         {
         }
 
-        public Meme(Guid id, string title, string imagePath)
+        public Meme(Guid id, string title, Guid userId)
         {
             Id = id;
             SetTitle(title);
-            SetPath(imagePath);
+            UserId = userId;
+            //SetPath(imagePath);
+            
             CreatedAt = DateTime.Now;
         }
 
@@ -35,7 +40,7 @@ namespace Server.Core.Domain
                 throw new ArgumentException(ErrorCodes.InvalidPath,
                      "Image path is invalid.");
             }
-            ImagePath = imagePath;
+            //ImagePath = imagePath;
             UpdatedAt = DateTime.UtcNow;
         }
 

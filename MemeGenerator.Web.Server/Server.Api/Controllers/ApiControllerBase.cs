@@ -20,10 +20,10 @@ namespace Passenger.Api.Controllers
 
         protected async Task DispatchAsync<T>(T command) where T : ICommand
         {
-            //if (command is IAuthenticatedCommand authenticatedCommand)
-            //{
-            //    authenticatedCommand.UserId = UserId;
-            //}
+            if (command is IAuthenticatedCommand authenticatedCommand)
+            {
+                authenticatedCommand.UserId = UserId;
+            }
             await CommandDispatcher.DispatchAsync(command);
         }
     }

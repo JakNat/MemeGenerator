@@ -1,11 +1,12 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace Server.Infrastructure.Commands.Memes
 {
-    public class CreateMeme : ICommand
+    public class CreateMeme : AuthenticatedCommandBase
     {
         public string Title { get; set; }
-        public Image Image { get; set; }
+        public string Image64 { get; set; }
         public string UpperText { get; set; }
         public string BottomText { get; set; }
     }

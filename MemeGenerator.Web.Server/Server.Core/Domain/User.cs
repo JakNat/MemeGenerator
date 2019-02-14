@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -8,12 +9,13 @@ namespace Server.Core.Domain
     public class User
     {
         private static readonly Regex NameRegex = new Regex("^(?![_.-])(?!.*[_.-]{2})[a-zA-Z0-9._.-]+(?<![_.-])$");
-
+        [Key]
         public Guid Id { get; protected set; }
         public string Email { get; protected set; }
         public string Password { get; protected set; }
         public string Salt { get; protected set; }
         public string UserName { get; protected set; }
+        public string Role { get; protected set; }
         public DateTime CreatedAt { get; protected set; }
         public DateTime UpdatedAt { get; protected set; }
 
@@ -21,12 +23,13 @@ namespace Server.Core.Domain
         {
         }
 
-        public User(Guid id, string email, string userName, string password, string salt)
+        public User(Guid id, string email, string userName, string password, string salt, string role)
         {
             Id = id;
             SetEmail(email);
             SetPassword(password, salt);
             SetUserName(userName);
+            Role = role;
             CreatedAt = DateTime.UtcNow;
         }
 

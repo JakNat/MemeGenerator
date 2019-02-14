@@ -11,7 +11,7 @@ namespace Server.Infrastructure.Services
     {
         Task<MemeDto> GetAsync(string title);
         Task<IEnumerable<MemeDto>> BrowseAsync();
-        Task AddAsync(Guid memeId, string title,
-            Image image/*, string role*/);
+        Task AddAsync(Guid memeId, string title, Guid userId);
+        Task<IEnumerable<MemeDto>> GetAllAsync();
     }
 }

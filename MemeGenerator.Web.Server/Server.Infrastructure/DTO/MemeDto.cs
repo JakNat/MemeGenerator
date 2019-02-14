@@ -9,6 +9,6 @@ namespace Server.Infrastructure.DTO
     {
         public Guid Id { get; set; }
         public string Title { get; set; }
-        public Image Image { get; set; }
+        public string Image64 { get; set; }
     }
 }

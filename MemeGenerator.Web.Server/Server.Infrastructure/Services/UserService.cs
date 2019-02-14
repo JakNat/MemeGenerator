@@ -55,7 +55,7 @@ namespace Server.Infrastructure.Services
         }
 
         public async Task RegisterAsync(Guid userId, string email,
-            string username, string password/*, string role*/)
+            string username, string password, string role)
         {
             var user = await _userRepository.GetAsync(email);
             if (user != null)
@@ -66,7 +66,8 @@ namespace Server.Infrastructure.Services
 
             var salt = _encrypter.GetSalt(password);
             var hash = _encrypter.GetHash(password, salt);
-            user = new User(userId, email, username,/* role,*/ salt, hash);
+            //user = new User(userId, email, username, role, salt, hash);
+            user = new User(userId, email, username, hash, salt, role);
             await _userRepository.AddAsync(user);
         }
     }

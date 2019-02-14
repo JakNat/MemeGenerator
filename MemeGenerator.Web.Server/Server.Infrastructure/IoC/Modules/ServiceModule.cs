@@ -21,9 +21,13 @@ namespace Server.Infrastructure.IoC.Modules
                    .As<IEncrypter>()
                    .SingleInstance();
 
-            //builder.RegisterType<JwtHandler>()
-            //       .As<IJwtHandler>()
-            //       .SingleInstance();
+            builder.RegisterType<JwtHandler>()
+                   .As<IJwtHandler>()
+                   .SingleInstance();
+
+            builder.RegisterType<ImageHandler>()
+                  .As<IImageHandler>()
+                  .SingleInstance();
         }
     }
 }
